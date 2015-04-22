@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/ico" href="img/blackmarble_favicon.ico"/>
 
-    <title>Presentation - NGDC</title>
+    <title>Qing Liu - AAG 2015 Chicago Presentation</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +32,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<style>
+		.text-right {
+			text-align: right;
+		}
+		
+		.text-left {
+			text-align: left;
+		}
+	</style>
 
 </head>
 
@@ -58,23 +68,24 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#why1">Why?</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#modules">Modules</a>
+                        <a class="page-scroll" href="#objectives">Objectives</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#workflow">Methods</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#database">Intercalibration</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#database">Database</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#values">Values</a>
+                        <a class="page-scroll" href="#functions">WebApp</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#workflow">Workflow</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#functions">Functions</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#techspec">TechSpec</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -88,13 +99,70 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Building a Web Application with Open Source Technology</div>
                 <div class="intro-heading">To Improve Access to Global Night-time Lights Data</div>
-                <a href="#about" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>
+                <a href="#why" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
+    <!-- Why Section 1 -->
+    <section id="why1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Need for an Urbanization Science</h2>
+                    <p class="text-muted large">Scholarship on cities is extensive, but our knowledge of urbanization is fragmented.</p>
+                </div>
+            </div>
+            <br/><br/>
+            <div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-11">
+					<div class="col-lg-5"><p class="large text-right">Cities are sources of environmental degradation.</p></div>
+					<div class="col-lg-1 text-center">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fa fa-exchange fa-stack-1x fa-inverse"></i>
+						</span>
+					</div>
+					<div class="col-lg-6">
+						<p class="large text-left">Cities and the lifestyles they engender can be potential solutions to current and future environmental and sustainability challenges</p>
+					</div>
+				</div>
+            </div>
+			<hr/>
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-11">
+					<div class="col-lg-5"><p class="large text-right">Increasing amount of available information and data about cities that can help us address previous modeling barriers.</p></div>
+					<div class="col-lg-1 text-center">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x text-primary"></i>
+							<i class="fa fa-exchange fa-stack-1x fa-inverse"></i>
+						</span>
+					</div>
+					<div class="col-lg-6">
+						<p class="large text-left">Lack a coherent understanding of the underlying urbanization processes that create urban places and interaction of these processes with other systems</p>
+					</div>
+				</div>
+            </div>
+			<hr/>
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="large text-center"><i class="fa fa-arrow-circle-right fa-lg text-primary"></i>
+					The need for a holistic approach to urban development and human settlements and called for an integrated approach to planning and building sustainable cities and urban settlements to create livable places as a way to solve our local, regional, and even global environmental problems.</p>
+				</div>
+            </div>
+            <br/><br/>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#why2" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Why Section 2 -->
+    <section id="why2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -104,26 +172,41 @@
             </div>
             <br/>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                  <p class="large">
-                    Night-time lights data has the power to identify critical patterns <br/> and drive powerful insights into the spread of humans across the Earth. <br/> Night-time lights data is too often inaccessible for people who need it. <br/> We believe that by making this data more accessible <br/> and providing tools to make it more meaningful and actionable, <br/> more people become informed, engaged and empowered <br/> to address the issues that shape the future of our environment and our lives.
-                  </p>
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3">
+					<img src="img/nightchicago.jpg" width="300px" height="400px">
+				</div>
+                <div class="col-lg-8 text-left">
+					<ul>
+						<li>
+						    <p class="large">
+								Night-time lights data has the power to identify critical patterns <br/> and drive powerful insights into the spread of humans across the Earth.
+						    </p>
+						</li>
+						<li>
+						    <p class="large">
+								Night-time lights data is too often inaccessible for people who need it.
+						    </p>
+						</li>
+						<li>
+							<p class="large">
+								We believe that by making this data more accessible <br/> and providing tools to make it more meaningful and actionable, <br/> more people become informed, engaged and empowered <br/> to address the issues that shape the future of our environment and our lives.
+							</p>
+						</li>
+					</ul>
                 </div>
             </div>
             <br/><br/>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Data</h2>
-                    <li><p class="x-large">VIIRS DNB monthly cloud-free composites 2012-2014</p></li>
-                    <li><p class="x-large">Version 4 DMSP-OLS Nighttime lights annual cloud-free composities 1992-2012</p></li>  
-                    <a href="#modules" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                    <a href="#objectives" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
                 </div>
             </div>
         </div>
     </section>
     
     <!-- Modules Section -->
-    <section id="modules">
+    <section id="objectives">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -132,6 +215,17 @@
                 </div>
             </div>
             <div class="row text-center">
+				 <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-area-chart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h2 class="service-heading">Intercalibrate</h2>
+                    <p class="text-muted large">
+                      DMSP-OLS has no on-board calibration,<br/> the individual composites were intercalibrated via an empirical procedure.<br/>
+                      The objective of the intercalibration is to make it possible to compare the sum of lights index values from each year of the time series.
+                    </p>
+                </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -147,24 +241,13 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
                     </span>
                     <h2 class="service-heading">Visualize</h2>
                     <p class="text-muted large">
                       Map Visualization shows views of earth at night with interactive operations.<br/>
                       Chart and Table Visualization create meaningful information out of night-time lights data derived metrics.<br/>
                      </p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cloud-download fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h2 class="service-heading">Download & Data API</h2>
-                    <p class="text-muted large">
-                      Data Download provides you night-time lights data and key metrics in a standardized and ready-to-use format.<br/>
-                      Developer API helps create your own tools and applications with night-time lights data.
-                    </p>
                 </div>
             </div>
             <div class="row text-center">
@@ -180,7 +263,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Why this is a good idea?</h2>
+                    <h2 class="section-heading">Why is it a good idea?</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
@@ -230,6 +313,23 @@
             </div>
             <div class="row text-center">
                 <div class="col-lg-12">
+                    <a href="#data" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Workflow Section -->
+    <section id="data">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Data</h2>
+					<p class="muted large">
+						Global DMSP-OLS Nighttime Lights Time Series 1992 - 2013 (Version 4)
+					</p>
+                    <img src="img/global_dmsp.jpg" width="800px" height="400px">
+                    <br/>
                     <a href="#workflow" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
                 </div>
             </div>
@@ -244,7 +344,50 @@
                     <h2 class="section-heading">Work Flow</h2>
                     <img src="img/flowchart.png">
                     <br/>
-                    <a href="#functions" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                    <a href="#intercalibration1" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section id="intercalibration1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Intercalibration</h2>
+                    <p class="text-muted large">using empirically developed second-order regression functions</p>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3">
+					<img src="img/year.jpg" width="300px" height="400px">
+				</div>
+                <div class="col-lg-8 text-left">
+					<ul>
+						<li>
+						    <p class="large">
+								Samples of lighting from human settlements (cities and towns) were extracted from numerous candidate calibration areas and examined.
+						    </p>
+						</li>
+						<li>
+						    <p class="large">
+								Data from satellite year F12-1999 had the highest digital values (DN = 63) because of saturation in the bright cores of urban centers and large gas flares. F121999 was used as the reference and the data from all other satellite years were adjusted to match the F121999 data range.
+						    </p>
+						</li>
+						<li>
+							<p class="large">
+								Unlit pixels in original image have nonzero DN because nonzero constants in quadratic polynomial regression equations were added to the pixels. A threshold is applied to only keep pixels with DN value > 3 in the final calibrated data.
+							</p>
+						</li>
+					</ul>
+                </div>
+            </div>
+            <br/><br/>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#objectives" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
                 </div>
             </div>
         </div>
