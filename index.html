@@ -76,16 +76,18 @@
 					<li>
                         <a class="page-scroll" href="#workflow">Methods</a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="#database">Intercalibration</a>
-                    </li>
-					<li>
+                    <li>
                         <a class="page-scroll" href="#database">Database</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#functions">WebApp</a>
+					<li>
+                        <a class="page-scroll" href="#intercalibration1">Intercalibration</a>
                     </li>
-
+                    <li>
+                        <a class="page-scroll" href="#webapp">WebApp</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#future">Future</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -99,7 +101,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Building a Web Application with Open Source Technology</div>
                 <div class="intro-heading">To Improve Access to Global Night-time Lights Data</div>
-                <a href="#why" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>
+                <a href="#why1" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>
             </div>
         </div>
     </header>
@@ -319,7 +321,7 @@
         </div>
     </section>
 	
-	<!-- Workflow Section -->
+	<!-- Data Section -->
     <section id="data">
         <div class="container">
             <div class="row">
@@ -344,128 +346,12 @@
                     <h2 class="section-heading">Work Flow</h2>
                     <img src="img/flowchart.png">
                     <br/>
-                    <a href="#intercalibration1" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-	
-	<section id="intercalibration1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Intercalibration</h2>
-                    <p class="text-muted large">using empirically developed second-order regression functions</p>
-                </div>
-            </div>
-            <br/>
-            <div class="row">
-				<div class="col-lg-1"></div>
-				<div class="col-lg-3">
-					<img src="img/year.jpg" width="300px" height="400px">
-				</div>
-                <div class="col-lg-8 text-left">
-					<ul>
-						<li>
-						    <p class="large">
-								Samples of lighting from human settlements (cities and towns) were extracted from numerous candidate calibration areas and examined.
-						    </p>
-						</li>
-						<li>
-						    <p class="large">
-								Data from satellite year F12-1999 had the highest digital values (DN = 63) because of saturation in the bright cores of urban centers and large gas flares. F121999 was used as the reference and the data from all other satellite years were adjusted to match the F121999 data range.
-						    </p>
-						</li>
-						<li>
-							<p class="large">
-								Unlit pixels in original image have nonzero DN because nonzero constants in quadratic polynomial regression equations were added to the pixels. A threshold is applied to only keep pixels with DN value > 3 in the final calibrated data.
-							</p>
-						</li>
-					</ul>
-                </div>
-            </div>
-            <br/><br/>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a href="#objectives" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Functions Grid Section -->
-    <section id="functions">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Functions</h2>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#functionModal1" class="portfolio-link" data-toggle="modal">
-                        <img src="img/mockup00.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Website</h4>
-                        <br/>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#functionModal2" class="portfolio-link" data-toggle="modal">
-                        <img src="img/mockup01.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Map Visualization</h4>
-                        <br/>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#functionModal3" class="portfolio-link" data-toggle="modal">
-                        <img src="img/mockup02.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Chart Visualization</h4>
-                        <br/>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#functionModal4" class="portfolio-link" data-toggle="modal">
-                        <img src="img/mockup03.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Table Visualization</h4>
-                        <br/>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#functionModal5" class="portfolio-link" data-toggle="modal">
-                        <img src="img/mockup04.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Download Data</h4>
-                        <br/>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#functionModal6" class="portfolio-link" data-toggle="modal">
-                        <img src="img/mockup05.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Abnormality Report</h4>
-                        <br/>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
                     <a href="#techspec" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <!-- TechSpec Aside -->
     <aside  id="techspec" class="clients">
         <div class="container">
@@ -475,22 +361,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-4">
                     <a href="http://www.postgresql.org/">
                         <img src="img/logos/postgresql.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-4">
                     <a href="http://mapserver.org/">
                         <img src="img/logos/mapserver.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="http://openlayers.org/">
-                        <img src="img/logos/openlayers.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-4">
                     <a href="http://leafletjs.com/">
                         <img src="img/logos/leaflet.png" class="img-responsive img-centered" alt="">
                     </a>
@@ -521,8 +402,210 @@
                   <li>Active development, growing number of plugins</li>
                 </ul>
             </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#database" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
         </div>
     </aside>
+    
+    <!-- Database Section -->
+    <section id="database">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Store & Mange Night-time Imagery in PostgreSQL</h2>
+                    <p class="text-muted large">Experiment with Raster Tile Size</p>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3">
+					<img src="img/tile.png" width="300px" height="300px">
+				</div>
+                <div class="col-lg-8 text-left">
+					<ul>
+						<li>
+						    <p class="large">
+								DMSP-OLS is registered into 30arc sec grid. 
+                                120 x 120 pixel per tile = one degree per raster
+						    </p>
+						</li>
+						<li>
+                            <table class="table-bordered">
+                                <tr>
+                                    <td>Raster Size</td>
+                                    <td>Raster Numbers</td>
+                                    <td>Row Numbers</td>
+                                    <td>Load Time</td>
+                                    <td>Spatial Query Time</td>
+                                </tr>
+                                <tr>
+                                    <td>1200 x 1200</td>
+                                    <td>36 x 14</td>
+                                    <td>504</td>
+                                    <td>56.34sec</td>
+                                    <td>1.2 hrs</td>
+                                </tr>
+                                <tr>
+                                    <td>120 x 120</td>
+                                    <td>360 x 140</td>
+                                    <td>50,400</td>
+                                    <td>6 hrs</td>
+                                    <td>61 hrs</td>
+                                </tr>
+                                <tr>
+                                    <td>60 x 60</td>
+                                    <td>720 x 280</td>
+                                    <td>201,600</td>
+                                    <td>73 hrs</td>
+                                    <td>87 hrs</td>
+                                </tr>
+                            </table>
+						</li>
+						<li>
+							<p class="large">
+								Spatial SQL to Summarize and Aggregate Pixel Values to World Country Boundary
+							</p>
+						</li>
+                        <li>
+							<p class="large">
+								Computer Config:<br/>
+                                CPU: Intel Core i7-4770 3.4GHz<br/>
+                                RAM: 12.0 GB
+                                OS: 64-bit Windows 8.1
+                                PostgreSQL 9.3 + PostGIS 2.1
+							</p>
+						</li>
+					</ul>
+                </div>
+            </div>
+            <br/><br/>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#intercalibration1" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section id="intercalibration1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Intercalibration</h2>
+                    <p class="text-muted large">using empirically developed second-order regression functions</p>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-3">
+					<img src="img/year.png" width="300px" height="400px">
+				</div>
+                <div class="col-lg-8 text-left">
+					<ul>
+						<li>
+						    <p class="large">
+								Samples of lighting from human settlements (cities and towns) were extracted from numerous candidate calibration areas and examined.
+						    </p>
+						</li>
+						<li>
+						    <p class="large">
+								Data from satellite year F12-1999 had the highest digital values (DN = 63) because of saturation in the bright cores of urban centers and large gas flares. F121999 was used as the reference and the data from all other satellite years were adjusted to match the F121999 data range.
+						    </p>
+						</li>
+						<li>
+							<p class="large">
+								Unlit pixels in original image have nonzero DN because nonzero constants in quadratic polynomial regression equations were added to the pixels. A threshold is applied to only keep pixels with DN value > 3 in the final calibrated data.
+							</p>
+						</li>
+					</ul>
+                </div>
+            </div>
+            <br/><br/>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#intercalibration2" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- Workflow Section -->
+    <section id="intercalibration2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sum of Lights of U.S.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <h4 class="section-heading">Before Intercalation</h4>
+                    <img src="img/intercali_before.png">
+                    <br/>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h4 class="section-heading">After Intercalation</h4>
+                    <img src="img/intercali_after.png">
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#webapp" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- WebApp Section -->
+    <section id="webapp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Web Application</h2>
+                    <img src="img/webapp.png" width="1000px" width="500px">
+                    <br/>
+                    <a href="#future" class="btn btn-circle page-scroll btn-next"><i class="fa fa-angle-double-down animated"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Future Section -->
+    <section id="future">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-10">
+                    <h2 class="section-heading">Future Research Direction</h2>
+                    <br/><br/><br/>
+                    <ul>
+                        <li>
+                            <p class="large">
+                                Integrate more night-time data source: VIIRS, ISS photos, NightSat.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="large">
+                                Integrate environmental datasets (e.g. global NDVI)
+                            </p>
+                        </li>
+                        <li>
+                            <p class="large">
+                                Optimize database query functions, C implementation of PL/pgSQL.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
@@ -537,164 +620,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Function Modals -->
-    <!-- Use the modals below to showcase details about functions -->
-
-    <!-- Function Modal 1 -->
-    <div class="portfolio-modal modal fade" id="functionModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Website</h2>
-                            <p class="item-intro text-muted"></p>
-                            <img class="img-responsive" src="img/mockup00.png" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="functionModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Map Visualization</h2>
-                            <p class="item-intro text-muted"></p>
-                            <img class="img-responsive img-centered" src="img/mockup01.png" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="functionModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Chart Visualization</h2>
-                            <p class="item-intro text-muted"></p>
-                            <img class="img-responsive img-centered" src="img/mockup02.png" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="functionModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Table Visualization</h2>
-                            <p class="item-intro text-muted"></p>
-                            <img class="img-responsive img-centered" src="img/mockup03.png" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="functionModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Download Data</h2>
-                            <p class="item-intro text-muted"></p>
-                            <img class="img-responsive img-centered" src="img/mockup04.png" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="functionModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Report unusual observations in the imagery</h2>
-                            <p class="item-intro text-muted"></p>
-                            <img class="img-responsive img-centered" src="img/mockup05.png" alt="">
-                            <p></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
